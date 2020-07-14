@@ -1,0 +1,49 @@
+.module__header {
+  margin    : 0 0 50px;
+  text-align: center;
+  /* ここに書く */
+}
+.module__title {
+  position     : relative;
+  font-family: 'Varela Round',sans-serif;
+  margin: 50px 0 ;
+  /* margin-bottom: 50px; */
+}
+.module__title span {
+  position   : absolute;
+  font-size  : 100px;
+  font-family: 'Josefin Sans',sans-serif;
+  font-weight: 700;
+  top        : -40px;
+  left       : 0;
+  right      : 0;
+  opacity    : 0.05;
+}
+.module__line {
+  background: #666;
+  width     : 55px;
+  height    : 1px;
+  margin    : 30px auto;
+}
+.nav-item a{
+  color:#636363;
+  font-family: 'Varela Round',sans-serif;
+}
+.navbar-brand{
+  background-image: url("../images/bodycarepartner-logo.jpg");
+  height:30px;
+  width: 200px;
+  background-size: cover;
+ 
+}
+
+#access{
+  background-color: #fff;
+  
+}
+.about-box__img{
+  background-image: url("../images/prof.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-position: center ;
+}

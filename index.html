@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="shortcut icon" href="/images/favicon.ico">
+	<!-- font awesome CSS -->
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+	<title>My Portfolio!</title>
+
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Noto+Sans+KR&family=Varela+Round&display=swap" rel="stylesheet">
+		
+	<!-- Custom styles CSS -->
+
+	<link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+<!------------------------------------------------
+		1. トップビジュアル
+		2. ナビバー
+		3. Message
+		4. About
+		5. Works（portfolio）
+		6. Service
+		7. Price
+		8. Contact
+		9. Footer
+-------------------------------------------------->
+
+<!------------------------------------------------
+	* 1. トップビジュアル
+-------------------------------------------------->
+	<!-- トップ問題①「idをつける」-->
+		<section id="top">
+			<!-- トップ問題①「classをつける」 -->
+			<div class="top-item">
+				<!-- ↓↓↓トップ問題②「imgタグ、pタグを作る」↓↓↓-->
+				<!-- <img src="images/logo.png" alt="sample">
+				<p class="top-item__main"> Hello. I’m SAMPLE </p>
+				<p class=top-item__sub>『キャッチコピー』<br>あなたと繋がる、楽しいWeb制作を。</p> -->
+				<!-- ↑↑↑トップ問題②「imgタグ、pタグを作る」↓↓↓-->
+			</div>
+			<!-- 動くマウスの記述 -->
+			<div class="mouse-icon">
+				<div class="wheel"></div>
+			</div>
+		</section>
+
+<!------------------------------------------------
+	* 2. ナビバー
+-------------------------------------------------->
+
+	<header class="sticky-top">
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light"">
+			<div class="container">
+			 <h1>
+				<!-- <a class="navbar-brand" href="#">SAMPLE</a> -->
+			 </h1>
+			 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
+				<span class="navbar-toggler-icon"></span>
+			 </button>
+			 <div class="collapse navbar-collapse" id="Navbar">
+				<ul class="nav nav-pills flex-column flex-lg-row ml-auto">
+			 <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+			 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+			 <li class="nav-item"><a class="nav-link" href="#portfolio">BusinessStore</a></li>
+			 <li class="nav-item"><a class="nav-link" href="#service">ChineseMedicine</a></li>
+			 <li class="nav-item"><a class="nav-link" href="#price">Price</a></li>
+			 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+				</ul>
+			 </div>
+			</div>
+		 </nav>
+		
+	</header>
+
+	<main>
+
+<!------------------------------------------------
+	* 3. Message
+-------------------------------------------------->
+		<section id="message" class="module" >
+			<div class="container">
+
+				<!-- ↓↓↓この中にmodule__headerを記述↓↓↓ -->
+				<div class="module__header">
+					<h2 class="module__title">
+						message
+						<span>message</span>
+					</h2>	
+					<div class="module__line">
+					</div>
+					<p class="text-center">
+										<p class= "mt-4">
+											ご覧いただきありがとうございます。BodyCarePartnerのたばらと申します。<br>
+											当医院は女性専用ですので、女性のお客様のみの対応とさせていただいております。<br>
+											美と健康を第一に身体の歪み、姿勢矯正やリラクゼーションなど全ての面でサポートする女性専用の整体医院です。<br>
+											 
+										</p>
+										<p class= "mt-4">
+											漢方薬も取り扱っております。<br>
+											
+										</p>
+										<p class= "mt-4">
+											岡本店と板宿店にて営業いたしております。<br>
+											出張にも対応しておりますので、気軽にご相談ください。
+										</p>
+										<p class="mt-4">
+											思い描いた通りの<br>
+											 お身体を造るお手伝いをいたします。
+										</p>
+									</p>
+				</div>
+				<!-- ↑↑↑この中にmodule__headerを記述↑↑↑-->
+
+			</div><!-- .container -->
+		</section>
+		
+
+<!------------------------------------------------
+	* 4. About
+-------------------------------------------------->
+		<section id="about" class="module" style="margin-top: -80px;">
+
+			<!-- ↓↓↓グリッドレイアウトを使って組み立てる↓↓↓ -->
+			<div class= "row">
+				<div class="col-lg-6 about-box__img"></div>
+				<div class="col-lg-6 about-box__text">
+					<div class="module__header">
+						<h2 class="module__title">
+							Aboout Me
+							<span>About</span>
+						</h2>	
+						<div class="module__line">
+						</div>
+				</div>
+				<section class="about-item">
+					<div class="about-item__icon">
+						<i class="fas fa-user-circle">
+						</i>
+					</div>
+					<div class="about-item__box">
+						<h3 class="about-item__title">
+							田原 由紀<a href="https://www.facebook.com/bodycarepartner">@Facebook</a>
+						</h3>
+						<p class="about-item__desc">
+							神戸、大阪で整体の施術や漢方の販売を主に活動中。
+						</p>
+						<p class="about-item__desc">
+							趣味はドクターマリオ。そのためにiPadを買いました。
+						</p>
+					</div>
+				</section>
+				
+				<section class="about-item">
+					<div class="about-item__icon">
+						<i class="fas fa-paint-brush">
+						</i>
+					</div>
+					<div class="about-item__box">
+						<h3 class="about-item__title">
+							status
+						</h3>
+						<ul class="about-item__desc pl-0 list-unstyled">
+							<li>
+								<i class="fas fa-check-square mr-2"></i>
+								兵庫県出身。43歳。
+							</li>
+							<li>
+									<i class="fas fa-check-square mr-2"></i>
+									現在の活動拠点は、関西。
+							</li>
+							<!-- <li>
+									<i class="fas fa-check-square mr-2"></i>
+									ブログ『〇〇』を運営中。
+							</li> -->
+
+						</ul>
+					</div>
+				</div>
+				</section>
+
+				
+			
+			<!-- ↑↑↑グリッドレイアウトを使って組み立てる↑↑↑ -->
+
+		</section>
+
+		
+		<!------------------------------------------------
+			* 5. Works（portfolio）
+			-------------------------------------------------->
+		
+		<section id="portfolio" class="module">
+			<div class="container">
+				<div class="module__header">
+					<h2 class="module__title">
+						店舗紹介
+						<span>	Business Store</span>
+					</h2>
+					<div class="module__line"></div>
+				</div>
+				
+				<div class="row justify-content-center">
+					
+					<section class="col-lg-4 mt-3">
+						<a href="../show.html">
+							<div class="works-item">
+								<img src="../images/itayado-station.png" alt="画像の説明">
+								<div class="works-item__overlay">
+									<div class="works-item__inner">
+										<h3 class="works-item__title">板宿店</h3>
+										<p class="works-item__desc">平日のみの営業。山陽板宿駅より徒歩5分。</p>
+									</div>
+								</div>
+							</div>
+						</a>
+					</section>
+				
+					<section class="col-lg-4 mt-3">
+            <a href="../show.html">
+							<div class="works-item">
+								<img src="../images/okamoto-station.jpg" alt="画像の説明">
+								<div class="works-item__overlay">
+									<div class="works-item__inner">
+										<h3 class="works-item__title">岡本店</h3>
+										<p class="works-item__desc">土日のみ営業。阪急岡本駅より徒歩2分。
+										</p>
+									</div>
+								</div>
+							</div>
+						</a>
+					</section>
+					
+					<!-- <section class="col-lg-4 mt-3">
+						<a href="">
+							<div class="works-item">
+								<img src="../images/works_01.jpg" alt="画像の説明">
+								<div class="works-item__overlay">
+									<div class="works-item__inner">
+										<h3 class="works-item__title">カードのタイトル</h3>
+										<p class="works-item__desc">ここにカードの説明文が入ります</p>
+									</div>
+								</div>
+							</div>
+						</a>
+					</section> -->
+					
+				</div><!-- .row -->
+				
+				<!-- <div class="row justify-content-center">
+
+					<section class="col-lg-4 mt-3">
+						<a href="">
+							<div class="works-item">
+								<img src="../images/works_01.jpg" alt="画像の説明">
+								<div class="works-item__overlay">
+									<div class="works-item__inner">
+										<h3 class="works-item__title">カードのタイトル</h3>
+										<p class="works-item__desc">ここにカードの説明文が入ります</p>
+									</div>
+								</div>
+							</div>
+						</a>
+					</section>
+					
+					<section class="col-lg-4 mt-3">
+						<a href="">
+							<div class="works-item">
+								<img src="../images/works_01.jpg" alt="画像の説明">
+								<div class="works-item__overlay">
+									<div class="works-item__inner">
+										<h3 class="works-item__title">カードのタイトル</h3>
+										<p class="works-item__desc">ここにカードの説明文が入ります</p>
+									</div>
+								</div>
+							</div>
+						</a>
+					</section>	 -->
+				</div><!-- .row -->
+			</div><!-- .container -->
+
+		</section>
+
+
+
+<!------------------------------------------------
+	* 6. Service
+-------------------------------------------------->
+	
+<section id="service" class="module">
+	<div class="container">
+		<div class="module__header">
+			<h2 class="module__title">
+				漢方
+				<span>Chinese medicine</span>
+			</h2>
+			<div class="module__line">
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="service-card">
+						<!-- <div class="service-card__icon">
+						<i class="fab fa-wordpress"></i> -->
+					<!-- </div> -->
+						<h3 class="service-card__title">
+							WordPress
+						</h3>
+						<p class="service-card__copy">
+							CMS「WordPress」を利用したWebサイトの構築が可能です。テンプレートテーマを用いたサイト制作、オリジナルテーマの制作が可能です。
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-card">
+						<!-- <div class="service-card__icon">
+							<i class="fab fa-php"></i>
+						</div> -->
+						<h3 class="service-card__title">
+							PHP/MySQL
+						</h3>
+						<p class="service-card__copy">
+						PHPを使ってデータベースと連携したWebサイト/Webサービスを制作します。ログイン機能から、コンテンツ管理まで柔軟に対応いたします。
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-card">
+						<!-- <div class="service-card__icon">
+							<i class="fab fa-adobe"></i>
+						</div> -->
+						<h3 class="service-card__title">PhotoShop</h3>
+						<p class="service-card__copy">
+							Photoshopを使ったデザイン制作が可能です。写真の加工、UIパーツ、ロゴ・バナー制作、Webサイトデザインなど。PNG/JPEGなどの書き出しも可能です。
+						</p>
+					</div>
+				</div>
+
+				<!-- <div class="col-md-4">
+					<div class="service-card">
+						<div class="service-card__icon">
+							<i class="fab fa-twitter"></i>
+						</div>
+						<h3 class="service-card__title">Twitter API</h3>
+						<p class="service-card__copy">
+							TwitterAPIを利用したログイン認証の実装が可能です。icon、フォロー数、フォロワー数、など様々な情報を取得できます。
+						</p>
+					</div>
+				</div> -->
+
+				<!-- <div class="col-md-4">
+					<div class="service-card">
+						<div class="service-card__icon">
+							<i class="fas fa-palette"></i>
+						</div>
+						<h3 class="service-card__title">Design</h3>
+						<p class="service-card__copy">
+							Webデザイン、ホームページ制作、ランディングページの制作。バナー、ロゴ、アプリデザインが可能です。
+						</p>
+					</div>
+				</div>
+			</div> -->
+		</div>
+
+</section>
+
+<!------------------------------------------------
+	* 7. Price
+-------------------------------------------------->
+<section id ="price" class="module">
+	<div class="container">
+		<div class="module__header">
+			<h2 class="module__title">
+				料金
+				<span>PRICE</span>
+			</h2>
+			<div class="module__line">
+			</div>
+			<p class="price-copy">
+				Web制作の参考価格です。<br>柔軟に対応させていただきますので、まずはご相談ください。
+			</p>
+		</div>
+	</div>
+			<table>
+        <thead>
+            <tr>
+                <td class="non"></td>
+                <th scope="col">内容</th>
+                <th scope="col">価格(月額)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>ベーシックプラン</th>
+                <td data-label="内容" class="txt">はじめての方向け。ベーシックなお試しプラン</td>
+                <td data-label="価格" class="price">¥3,000</td>
+            </tr>
+            <tr>
+                <th>カスタムプラン</th>
+                <td data-label="内容" class="txt">必要なものだけ揃えられるカスタムプラン</td>
+                <td data-label="価格"class="price">¥4,000</td>
+            </tr>
+            <tr>
+                <th>プレミアムプラン</th>
+                <td data-label="内容" class="txt">全ておまかせのプレミアムプラン</td>
+                <td data-label="価格"class="price">¥10,000</td>
+            </tr>
+        </tbody>
+    </table>   
+</section>
+
+<!------------------------------------------------
+	* 8. Contact
+-------------------------------------------------->
+	<section id="contact" class="module">
+		<div class="container">
+			<div class="module__header">
+				<h2 class="module__title">
+					Contact
+					<span>CONTACT</span>
+				</h2>
+				<div class="module__line">
+				</div>
+				<p class="contact-copy">
+					ご予約、ご不明な点など、お気軽にお問い合わせください。
+				</p>
+				<form id="contact-form" action="mail.php" method="post">
+					<div class="form-group">
+					<label class="sr-only" for="name">Name</label>
+					<input type="text" id="name" class="form-control" name="name" placeholder="name" required>
+					</div>
+					<div class="form-group">
+					<label class="sr-only" for="email">Email address</label>
+					<input type="email" id="email" class="form-control" name="mail" placeholder="e-mail" required>
+					</div>
+					<div class="form-group">
+					<textarea class="form-control" id="c_message" name="content" rows="7" placeholder="your message" required></textarea>
+					</div>
+					<button type="submit" class="btn btn-block btn-custom-2">Send Message</button>
+					</form>
+	</section>
+
+
+
+	</main>
+
+
+<!------------------------------------------------
+	* 9. Footer
+-------------------------------------------------->
+	<footer>
+		<div class="container">
+			<ul class="social-links d-flex justify-content-center list-unstyled">
+				<li><a href="https://www.facebook.com/bodycarepartner"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="https://www.instagram.com/bodycarepartner/"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+			<p> <small lang="en">© 2020 SAMPLE.</small></p>
+		</div>	
+	</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<!-- function.js -->
+	<!-- <script src="js/function.js"></script> -->
+	
+</body>
+
+</html>
